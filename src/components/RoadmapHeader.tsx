@@ -20,11 +20,11 @@ const RoadmapHeader = () => {
         </div>
         
         <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-pink-100 bg-clip-text text-transparent">
-          Roadmap Desain Grafis
+          Roadmap Investasi Pemula
         </h1>
         
         <p className="text-xl md:text-2xl mb-4 text-blue-100">
-          Panduan Profesional untuk Pemula
+          Panduan Lengkap Modal 2 Juta Rupiah
         </p>
         
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
@@ -34,13 +34,13 @@ const RoadmapHeader = () => {
           </div>
           <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
             <TrendingUp className="w-5 h-5 text-green-400" />
-            <span className="font-medium">Level: Pemula ke Profesional</span>
+            <span className="font-medium">Target: 15-20% per tahun</span>
           </div>
         </div>
         
         <p className="text-lg text-blue-200 max-w-2xl mx-auto">
           Dipersembahkan oleh <span className="font-bold text-white">Hendra</span> - 
-          Roadmap lengkap dengan timeline, tools, dan strategi investasi yang tepat
+          Strategi investasi cerdas untuk membangun kekayaan jangka panjang
         </p>
       </div>
     </div>

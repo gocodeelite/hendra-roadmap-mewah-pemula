@@ -1,51 +1,51 @@
 
 import React from 'react';
-import { Monitor, Smartphone, Cloud, Zap, Star, ExternalLink } from 'lucide-react';
+import { Smartphone, TrendingUp, BarChart3, Calculator, Star, ExternalLink } from 'lucide-react';
 
 const ToolsRecommendation = () => {
   const categories = [
     {
-      icon: <Monitor className="w-8 h-8" />,
-      title: "Software Design",
+      icon: <Smartphone className="w-8 h-8" />,
+      title: "Platform Investasi",
       color: "from-blue-500 to-cyan-500",
       tools: [
-        { name: "Adobe Creative Suite", price: "Rp 280k/bulan", rating: 5, description: "Industry standard untuk professional" },
-        { name: "Affinity Designer", price: "Rp 800k sekali bayar", rating: 4, description: "Alternatif terjangkau Adobe" },
-        { name: "Canva Pro", price: "Rp 150k/bulan", rating: 4, description: "Perfect untuk pemula dan social media" },
-        { name: "Figma", price: "Gratis - Rp 180k/bulan", rating: 5, description: "UI/UX design dan collaboration" }
+        { name: "Bibit", price: "Gratis", rating: 5, description: "Reksadana terbaik untuk pemula" },
+        { name: "Bareksa", price: "Gratis", rating: 5, description: "Platform reksadana terlengkap" },
+        { name: "Stockbit", price: "Gratis", rating: 4, description: "Social trading & analisis saham" },
+        { name: "IPOT", price: "Gratis", rating: 4, description: "Trading saham dan reksadana" }
       ]
     },
     {
-      icon: <Cloud className="w-8 h-8" />,
-      title: "Stock & Assets",
+      icon: <BarChart3 className="w-8 h-8" />,
+      title: "Analisis & Research",
       color: "from-purple-500 to-pink-500",
       tools: [
-        { name: "Shutterstock", price: "Rp 400k/bulan", rating: 5, description: "Premium stock photos & vectors" },
-        { name: "Unsplash", price: "Gratis", rating: 4, description: "High-quality free photos" },
-        { name: "Freepik", price: "Rp 120k/bulan", rating: 4, description: "Vectors, icons, dan templates" },
-        { name: "Adobe Stock", price: "Rp 300k/bulan", rating: 5, description: "Terintegrasi dengan Adobe CC" }
+        { name: "RTI Business", price: "Gratis", rating: 5, description: "Data fundamental perusahaan" },
+        { name: "TradingView", price: "Gratis - $15/bulan", rating: 5, description: "Chart analysis professional" },
+        { name: "Yahoo Finance", price: "Gratis", rating: 4, description: "Berita dan data finansial" },
+        { name: "Investing.com", price: "Gratis", rating: 4, description: "Global market data" }
       ]
     },
     {
-      icon: <Smartphone className="w-8 h-8" />,
-      title: "Mobile Tools",
+      icon: <TrendingUp className="w-8 h-8" />,
+      title: "Portfolio Tracking",
       color: "from-green-500 to-teal-500",
       tools: [
-        { name: "Adobe Creative Mobile", price: "Rp 150k/bulan", rating: 4, description: "Design on-the-go" },
-        { name: "Procreate", price: "Rp 150k sekali bayar", rating: 5, description: "Digital illustration (iPad)" },
-        { name: "Canva Mobile", price: "Gratis - Rp 150k/bulan", rating: 4, description: "Quick design mobile" },
-        { name: "Over", price: "Rp 120k/bulan", rating: 4, description: "Mobile design & templates" }
+        { name: "Personal Capital", price: "Gratis", rating: 5, description: "Portfolio management tools" },
+        { name: "Tiller", price: "$79/tahun", rating: 4, description: "Spreadsheet-based tracking" },
+        { name: "YNAB", price: "$14/bulan", rating: 4, description: "Budgeting dan investment tracking" },
+        { name: "Mint", price: "Gratis", rating: 4, description: "Financial planning tools" }
       ]
     },
     {
-      icon: <Zap className="w-8 h-8" />,
-      title: "Productivity",
+      icon: <Calculator className="w-8 h-8" />,
+      title: "Kalkulator & Tools",
       color: "from-orange-500 to-red-500",
       tools: [
-        { name: "Notion", price: "Gratis - Rp 100k/bulan", rating: 5, description: "Project management & notes" },
-        { name: "Trello", price: "Gratis - Rp 80k/bulan", rating: 4, description: "Task management" },
-        { name: "Dropbox", price: "Rp 200k/bulan", rating: 4, description: "File storage & sharing" },
-        { name: "Time Doctor", price: "Rp 100k/bulan", rating: 4, description: "Time tracking untuk freelancer" }
+        { name: "Compound Calculator", price: "Gratis", rating: 5, description: "Hitung bunga majemuk" },
+        { name: "Portfolio Visualizer", price: "Gratis", rating: 5, description: "Backtest portfolio strategy" },
+        { name: "Risk Calculator", price: "Gratis", rating: 4, description: "Assess investment risk" },
+        { name: "Retirement Calculator", price: "Gratis", rating: 4, description: "Plan long-term goals" }
       ]
     }
   ];
@@ -70,10 +70,10 @@ const ToolsRecommendation = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
-            Rekomendasi Tools & Software
+            Platform & Tools Investasi Terbaik
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Pilihan tools terbaik yang telah terbukti digunakan oleh designer professional di seluruh dunia
+            Kumpulan platform dan aplikasi terbaik yang telah terbukti membantu investor sukses
           </p>
         </div>
 
@@ -112,24 +112,24 @@ const ToolsRecommendation = () => {
           ))}
         </div>
 
-        {/* Budget Summary */}
+        {/* Strategy Summary */}
         <div className="mt-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-center">
-          <h3 className="text-2xl font-bold mb-4">Estimasi Budget Software Bulanan</h3>
+          <h3 className="text-2xl font-bold mb-4">Strategi Investasi Berdasarkan Modal</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white/10 rounded-xl p-4">
-              <h4 className="font-bold text-lg mb-2">Paket Pemula</h4>
-              <p className="text-3xl font-bold text-yellow-400">Rp 300k</p>
-              <p className="text-sm mt-2">Canva Pro + Freepik + Notion</p>
+              <h4 className="font-bold text-lg mb-2">Conservative (60%)</h4>
+              <p className="text-3xl font-bold text-green-400">Rp 1.2jt</p>
+              <p className="text-sm mt-2">Dana Darurat + Pasar Uang</p>
             </div>
             <div className="bg-white/10 rounded-xl p-4">
-              <h4 className="font-bold text-lg mb-2">Paket Menengah</h4>
+              <h4 className="font-bold text-lg mb-2">Moderate (30%)</h4>
               <p className="text-3xl font-bold text-yellow-400">Rp 600k</p>
-              <p className="text-sm mt-2">Adobe CC + Stock + Productivity</p>
+              <p className="text-sm mt-2">Reksadana Campuran</p>
             </div>
             <div className="bg-white/10 rounded-xl p-4">
-              <h4 className="font-bold text-lg mb-2">Paket Professional</h4>
-              <p className="text-3xl font-bold text-yellow-400">Rp 1.2jt</p>
-              <p className="text-sm mt-2">Full Adobe Suite + Premium Assets</p>
+              <h4 className="font-bold text-lg mb-2">Aggressive (10%)</h4>
+              <p className="text-3xl font-bold text-red-400">Rp 200k</p>
+              <p className="text-sm mt-2">Saham & Growth Stocks</p>
             </div>
           </div>
         </div>

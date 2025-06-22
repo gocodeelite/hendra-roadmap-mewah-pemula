@@ -7,72 +7,72 @@ const SuccessMetrics = () => {
     {
       icon: <Target className="w-8 h-8" />,
       title: "Target Portfolio",
-      value: "15-20",
-      unit: "Proyek",
-      description: "Jumlah minimum proyek berkualitas dalam portfolio",
+      value: "5-7",
+      unit: "Instrumen",
+      description: "Diversifikasi optimal untuk modal 2 juta",
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: <DollarSign className="w-8 h-8" />,
-      title: "Income Target",
-      value: "2-5",
-      unit: "Juta/bulan",
-      description: "Pendapatan yang realistis dalam 6-12 bulan",
+      title: "Target Return",
+      value: "15-20",
+      unit: "% per tahun",
+      description: "Return realistis untuk investor pemula",
       color: "from-green-500 to-emerald-500"
     },
     {
       icon: <Clock className="w-8 h-8" />,
-      title: "Learning Hours",
-      value: "4-6",
-      unit: "Jam/hari",
-      description: "Waktu belajar konsisten untuk hasil optimal",
+      title: "Waktu Investasi",
+      value: "3-5",
+      unit: "Tahun minimum",
+      description: "Jangka waktu untuk hasil optimal",
       color: "from-purple-500 to-violet-500"
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Client Base",
-      value: "5-10",
-      unit: "Klien tetap",
-      description: "Jumlah klien regular dalam 12 bulan",
+      title: "Learning Time",
+      value: "2-3",
+      unit: "Jam/minggu",
+      description: "Waktu belajar konsisten untuk sukses",
       color: "from-orange-500 to-red-500"
     }
   ];
 
   const milestones = [
     {
-      month: "Bulan 1-2",
-      title: "Foundation Complete",
+      month: "Bulan 1-3",
+      title: "Foundation Building",
       achievements: [
-        "Menguasai tools dasar Adobe",
-        "Memahami design principles",
-        "Membuat 3-5 practice projects"
+        "Dana darurat Rp 500k terbentuk",
+        "Memahami dasar-dasar investasi",
+        "Mulai investasi reksadana pasar uang"
       ]
     },
     {
-      month: "Bulan 3-4",
-      title: "Skill Development",
+      month: "Bulan 4-6", 
+      title: "Portfolio Growth",
       achievements: [
-        "Portfolio berisi 8-10 projects",
-        "Menguasai typography & color theory",
-        "Mendapat first paid project"
+        "Portfolio mencapai Rp 1 juta",
+        "Diversifikasi ke reksadana campuran",
+        "Return 8-12% dari investasi awal"
       ]
     },
     {
-      month: "Bulan 5-6",
-      title: "Professional Ready",
+      month: "Bulan 7-9",
+      title: "Risk Taking",
       achievements: [
-        "Portfolio profesional lengkap",
-        "Networking dengan 20+ designer",
-        "Income Rp 1-2 juta/bulan"
+        "Mulai investasi saham blue chip",
+        "Portfolio value Rp 1.5 juta",
+        "Memahami analisis fundamental"
       ]
     },
     {
-      month: "Bulan 7-12",
-      title: "Business Growth",
+      month: "Bulan 10-12",
+      title: "Optimization",
       achievements: [
-        "Spesialisasi dalam 1-2 niche",
-        "5+ klien regular",
-        "Income Rp 3-5 juta/bulan"
+        "Portfolio terdiversifikasi penuh",
+        "Target return 15-20% tercapai",
+        "Strategi jangka panjang matang"
       ]
     }
   ];
@@ -86,10 +86,10 @@ const SuccessMetrics = () => {
             <span className="text-sm font-medium tracking-wider uppercase text-purple-600">Success Metrics</span>
           </div>
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Target & Milestone Kesuksesan
+            Target & Milestone Investasi
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Indikator konkret untuk mengukur progress dan mencapai target karir sebagai desainer grafis profesional
+            Indikator kesuksesan dan milestone yang realistis untuk investasi modal 2 juta rupiah
           </p>
         </div>
 
@@ -123,7 +123,7 @@ const SuccessMetrics = () => {
               <span className="font-medium text-purple-600">Progress Timeline</span>
             </div>
             <h3 className="text-3xl font-bold text-gray-800 mb-4">Milestone Pencapaian</h3>
-            <p className="text-gray-600">Timeline realistis untuk mencapai target profesional</p>
+            <p className="text-gray-600">Timeline realistis untuk mencapai target investasi</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -161,24 +161,24 @@ const SuccessMetrics = () => {
           </div>
         </div>
 
-        {/* ROI Calculation */}
+        {/* ROI Projection */}
         <div className="mt-16 bg-gradient-to-r from-green-600 to-teal-600 rounded-2xl p-8 text-white text-center">
-          <h3 className="text-3xl font-bold mb-6">Return on Investment (ROI)</h3>
+          <h3 className="text-3xl font-bold mb-6">Proyeksi Pertumbuhan Modal</h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h4 className="text-xl font-bold mb-2">Initial Investment</h4>
+              <h4 className="text-xl font-bold mb-2">Modal Awal</h4>
               <p className="text-4xl font-bold text-yellow-300">Rp 2 Juta</p>
-              <p className="text-green-100 mt-2">Setup + Learning (4 bulan)</p>
+              <p className="text-green-100 mt-2">Starting capital</p>
             </div>
             <div>
-              <h4 className="text-xl font-bold mb-2">Monthly Income (Target)</h4>
-              <p className="text-4xl font-bold text-yellow-300">Rp 3-5 Juta</p>
-              <p className="text-green-100 mt-2">Setelah 6-12 bulan</p>
+              <h4 className="text-xl font-bold mb-2">Tahun ke-3</h4>
+              <p className="text-4xl font-bold text-yellow-300">Rp 3.5 Juta</p>
+              <p className="text-green-100 mt-2">Target konservatif (15% p.a)</p>
             </div>
             <div>
-              <h4 className="text-xl font-bold mb-2">ROI Achievement</h4>
-              <p className="text-4xl font-bold text-yellow-300">150-250%</p>
-              <p className="text-green-100 mt-2">Dalam 12 bulan pertama</p>
+              <h4 className="text-xl font-bold mb-2">Tahun ke-5</h4>
+              <p className="text-4xl font-bold text-yellow-300">Rp 5.2 Juta</p>
+              <p className="text-green-100 mt-2">Dengan compound growth</p>
             </div>
           </div>
         </div>

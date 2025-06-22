@@ -6,48 +6,48 @@ const RoadmapTimeline = () => {
   const roadmapSteps = [
     {
       step: 1,
-      title: "Foundation & Setup",
-      duration: "Minggu 1-2",
-      budget: "Rp 1.000.000",
-      description: "Membangun fondasi yang kuat dengan setup perangkat keras dan software dasar. Investasi awal yang paling penting untuk memulai perjalanan desain grafis.",
-      skills: ["Computer Basics", "File Management", "Design Principles"],
-      tools: ["Adobe Creative Suite", "Canva Pro", "Hardware Setup"]
+      title: "Dana Darurat & Persiapan",
+      duration: "Bulan 1",
+      budget: "Rp 500.000",
+      description: "Membangun fondasi keuangan yang kuat dengan dana darurat dan mempersiapkan mental investasi. Langkah penting sebelum memulai investasi jangka panjang.",
+      skills: ["Financial Planning", "Emergency Fund", "Risk Assessment", "Basic Investment Knowledge"],
+      tools: ["Tabungan Bank", "Aplikasi Finansial", "Kalkulator Investasi", "Buku Edukasi"]
     },
     {
       step: 2,
-      title: "Design Fundamentals",
-      duration: "Minggu 3-6",
-      budget: "Rp 300.000",
-      description: "Mempelajari prinsip-prinsip dasar desain grafis termasuk tipografi, warna, komposisi, dan hierarki visual yang menjadi pondasi setiap desainer profesional.",
-      skills: ["Typography", "Color Theory", "Layout Design", "Composition"],
-      tools: ["Adobe Illustrator", "Figma", "Pinterest", "Behance"]
+      title: "Reksadana Pasar Uang",
+      duration: "Bulan 2-3",
+      budget: "Rp 400.000",
+      description: "Memulai dengan instrumen investasi yang paling aman dan liquid. Cocok untuk pemula yang ingin belajar sambil mendapat return yang lebih baik dari tabungan.",
+      skills: ["Reksadana Basics", "Risk Management", "Platform Trading", "Market Analysis"],
+      tools: ["Bareksa", "Bibit", "Tanamduit", "Ajaib"]
     },
     {
       step: 3,
-      title: "Software Mastery",
-      duration: "Minggu 7-12",
-      budget: "Rp 400.000",
-      description: "Menguasai tools professional seperti Adobe Creative Suite dan software alternatif. Focus pada workflow yang efisien dan teknik-teknik advanced.",
-      skills: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Workflow Optimization"],
-      tools: ["Adobe CC", "Affinity Suite", "Online Tutorials", "Practice Projects"]
+      title: "Reksadana Campuran",
+      duration: "Bulan 4-6",
+      budget: "Rp 600.000",
+      description: "Meningkatkan exposure ke saham melalui reksadana campuran untuk potensi return yang lebih tinggi dengan risiko yang masih terkendali.",
+      skills: ["Asset Allocation", "Diversification", "Market Timing", "Performance Analysis"],
+      tools: ["Portfolio Tracker", "Investment Apps", "Market Research", "Fund Analysis"]
     },
     {
       step: 4,
-      title: "Portfolio Development",
-      duration: "Minggu 13-16",
-      budget: "Rp 200.000",
-      description: "Membangun portfolio yang kuat dengan proyek-proyek nyata. Belajar presentasi karya dan personal branding untuk menarik klien potensial.",
-      skills: ["Portfolio Curation", "Personal Branding", "Project Presentation", "Client Communication"],
-      tools: ["Behance", "Dribbble", "Personal Website", "Social Media"]
+      title: "Saham Blue Chip",
+      duration: "Bulan 7-9",
+      budget: "Rp 300.000",
+      description: "Mulai investasi langsung di saham perusahaan besar dan stabil. Belajar analisis fundamental dan teknikal untuk memilih saham yang tepat.",
+      skills: ["Stock Analysis", "Fundamental Analysis", "Technical Analysis", "Portfolio Management"],
+      tools: ["Stockbit", "RTI Business", "IPOT", "Trading Platform"]
     },
     {
       step: 5,
-      title: "Specialization & Monetization",
-      duration: "Minggu 17-24",
-      budget: "Rp 100.000",
-      description: "Menentukan spesialisasi dan mulai monetisasi skills. Belajar strategi marketing, pricing, dan membangun network professional di industri kreatif.",
-      skills: ["Niche Specialization", "Business Development", "Marketing", "Networking"],
-      tools: ["Freelancing Platforms", "Social Media Marketing", "Business Tools", "Analytics"]
+      title: "Diversifikasi & Optimasi",
+      duration: "Bulan 10-12",
+      budget: "Rp 200.000",
+      description: "Mengoptimalkan portfolio dengan diversifikasi ke berbagai instrumen dan sektor. Focus pada rebalancing dan strategi jangka panjang.",
+      skills: ["Portfolio Optimization", "Rebalancing", "Tax Planning", "Long-term Strategy"],
+      tools: ["Portfolio Management", "Tax Calculator", "Investment Tracker", "Financial Advisor"]
     }
   ];
 
@@ -56,10 +56,10 @@ const RoadmapTimeline = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Roadmap Pembelajaran
+            Roadmap Investasi Bertahap
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Timeline terstruktur dari pemula hingga profesional dengan target yang jelas dan terukur untuk setiap tahapan
+            Strategi investasi sistematis dari pemula hingga investor yang berpengalaman dengan alokasi dana yang optimal
           </p>
         </div>
 

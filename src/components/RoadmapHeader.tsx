@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Star, Award, TrendingUp } from 'lucide-react';
+import { Star, Award, TrendingUp, Shuffle } from 'lucide-react';
 
 const RoadmapHeader = () => {
   return (
@@ -19,12 +19,16 @@ const RoadmapHeader = () => {
           <Star className="w-8 h-8 text-yellow-400" />
         </div>
         
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-pink-100 bg-clip-text text-transparent">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white via-blue-100 to-pink-100 bg-clip-text text-transparent">
           Roadmap Investasi Pemula
         </h1>
         
+        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-purple-200">
+          Mix & Match Strategy
+        </h2>
+        
         <p className="text-xl md:text-2xl mb-4 text-blue-100">
-          Panduan Lengkap Modal 2 Juta Rupiah
+          Memulai Perjalanan Finansial dengan Modal 2 Juta
         </p>
         
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
@@ -34,13 +38,17 @@ const RoadmapHeader = () => {
           </div>
           <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
             <TrendingUp className="w-5 h-5 text-green-400" />
-            <span className="font-medium">Target: 15-20% per tahun</span>
+            <span className="font-medium">Target: 12-18% per tahun</span>
+          </div>
+          <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
+            <Shuffle className="w-5 h-5 text-purple-400" />
+            <span className="font-medium">Portofolio Hybrid</span>
           </div>
         </div>
         
-        <p className="text-lg text-blue-200 max-w-2xl mx-auto">
+        <p className="text-lg text-blue-200 max-w-3xl mx-auto">
           Dipersembahkan oleh <span className="font-bold text-white">Hendra</span> - 
-          Strategi investasi cerdas untuk membangun kekayaan jangka panjang
+          Strategi Mix & Match untuk membangun portofolio yang seimbang dan menguntungkan
         </p>
       </div>
     </div>

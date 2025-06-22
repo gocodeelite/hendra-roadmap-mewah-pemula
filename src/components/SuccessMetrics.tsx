@@ -1,39 +1,39 @@
 
 import React from 'react';
-import { Target, TrendingUp, Users, Award, DollarSign, Clock } from 'lucide-react';
+import { Target, TrendingUp, Users, Award, DollarSign, Clock, BarChart3, Shuffle } from 'lucide-react';
 
 const SuccessMetrics = () => {
   const metrics = [
     {
-      icon: <Target className="w-8 h-8" />,
-      title: "Target Portfolio",
-      value: "5-7",
+      icon: <Shuffle className="w-8 h-8" />,
+      title: "Diversifikasi",
+      value: "5-6",
       unit: "Instrumen",
-      description: "Diversifikasi optimal untuk modal 2 juta",
+      description: "Mix optimal untuk modal 2 juta",
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: <DollarSign className="w-8 h-8" />,
       title: "Target Return",
-      value: "15-20",
+      value: "12-18",
       unit: "% per tahun",
-      description: "Return realistis untuk investor pemula",
+      description: "Return realistis portofolio hybrid",
       color: "from-green-500 to-emerald-500"
     },
     {
-      icon: <Clock className="w-8 h-8" />,
-      title: "Waktu Investasi",
-      value: "3-5",
-      unit: "Tahun minimum",
-      description: "Jangka waktu untuk hasil optimal",
+      icon: <BarChart3 className="w-8 h-8" />,
+      title: "Rebalancing",
+      value: "3-4",
+      unit: "Kali/tahun",
+      description: "Frekuensi optimasi portofolio",
       color: "from-purple-500 to-violet-500"
     },
     {
-      icon: <Users className="w-8 h-8" />,
-      title: "Learning Time",
-      value: "2-3",
-      unit: "Jam/minggu",
-      description: "Waktu belajar konsisten untuk sukses",
+      icon: <Target className="w-8 h-8" />,
+      title: "Risk Level",
+      value: "Moderate",
+      unit: "Balance",
+      description: "Keseimbangan risiko-return optimal",
       color: "from-orange-500 to-red-500"
     }
   ];
@@ -43,37 +43,61 @@ const SuccessMetrics = () => {
       month: "Bulan 1-3",
       title: "Foundation Building",
       achievements: [
-        "Dana darurat Rp 500k terbentuk",
-        "Memahami dasar-dasar investasi",
-        "Mulai investasi reksadana pasar uang"
+        "Dana darurat Rp 500k + deposito established",
+        "Memahami konsep risk-return trade-off",
+        "Portfolio base dengan instrumen konservatif"
       ]
     },
     {
       month: "Bulan 4-6", 
-      title: "Portfolio Growth",
+      title: "Diversification Phase",
       achievements: [
-        "Portfolio mencapai Rp 1 juta",
-        "Diversifikasi ke reksadana campuran",
+        "Mix pasar uang + pendapatan tetap aktif",
+        "Portfolio value mencapai Rp 1.2 juta",
         "Return 8-12% dari investasi awal"
       ]
     },
     {
       month: "Bulan 7-9",
-      title: "Risk Taking",
+      title: "Growth Integration",
       achievements: [
-        "Mulai investasi saham blue chip",
-        "Portfolio value Rp 1.5 juta",
-        "Memahami analisis fundamental"
+        "Reksadana campuran terintegrasi",
+        "Portfolio value Rp 1.6 juta",
+        "Memahami asset allocation dynamics"
       ]
     },
     {
       month: "Bulan 10-12",
-      title: "Optimization",
+      title: "Portfolio Optimization",
       achievements: [
-        "Portfolio terdiversifikasi penuh",
-        "Target return 15-20% tercapai",
-        "Strategi jangka panjang matang"
+        "Hybrid portfolio fully optimized",
+        "Target return 12-18% tercapai",
+        "Master rebalancing strategy"
       ]
+    }
+  ];
+
+  const longTermProjections = [
+    {
+      year: "Tahun 1",
+      conservative: "Rp 2.24 juta",
+      moderate: "Rp 2.30 juta", 
+      aggressive: "Rp 2.36 juta",
+      scenario: "Target minimum (12%)"
+    },
+    {
+      year: "Tahun 3",
+      conservative: "Rp 2.81 juta",
+      moderate: "Rp 3.05 juta",
+      aggressive: "Rp 3.31 juta", 
+      scenario: "Growth steady (15%)"
+    },
+    {
+      year: "Tahun 5",
+      conservative: "Rp 3.52 juta",
+      moderate: "Rp 4.04 juta",
+      aggressive: "Rp 4.64 juta",
+      scenario: "Optimal performance (18%)"
     }
   ];
 
@@ -86,10 +110,11 @@ const SuccessMetrics = () => {
             <span className="text-sm font-medium tracking-wider uppercase text-purple-600">Success Metrics</span>
           </div>
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Target & Milestone Investasi
+            Target & KPI Portofolio Hybrid
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Indikator kesuksesan dan milestone yang realistis untuk investasi modal 2 juta rupiah
+            Indikator kesuksesan dan milestone yang terukur untuk strategi Mix & Match 
+            dengan modal 2 juta rupiah
           </p>
         </div>
 
@@ -116,14 +141,14 @@ const SuccessMetrics = () => {
         </div>
 
         {/* Milestone Timeline */}
-        <div className="bg-white rounded-3xl shadow-2xl p-8">
+        <div className="bg-white rounded-3xl shadow-2xl p-8 mb-16">
           <div className="text-center mb-12">
             <div className="flex justify-center items-center gap-2 mb-4">
               <TrendingUp className="w-6 h-6 text-purple-600" />
               <span className="font-medium text-purple-600">Progress Timeline</span>
             </div>
-            <h3 className="text-3xl font-bold text-gray-800 mb-4">Milestone Pencapaian</h3>
-            <p className="text-gray-600">Timeline realistis untuk mencapai target investasi</p>
+            <h3 className="text-3xl font-bold text-gray-800 mb-4">Milestone Mix & Match</h3>
+            <p className="text-gray-600">Timeline realistis untuk strategi portofolio hybrid</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -161,25 +186,46 @@ const SuccessMetrics = () => {
           </div>
         </div>
 
-        {/* ROI Projection */}
-        <div className="mt-16 bg-gradient-to-r from-green-600 to-teal-600 rounded-2xl p-8 text-white text-center">
-          <h3 className="text-3xl font-bold mb-6">Proyeksi Pertumbuhan Modal</h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div>
-              <h4 className="text-xl font-bold mb-2">Modal Awal</h4>
-              <p className="text-4xl font-bold text-yellow-300">Rp 2 Juta</p>
-              <p className="text-green-100 mt-2">Starting capital</p>
-            </div>
-            <div>
-              <h4 className="text-xl font-bold mb-2">Tahun ke-3</h4>
-              <p className="text-4xl font-bold text-yellow-300">Rp 3.5 Juta</p>
-              <p className="text-green-100 mt-2">Target konservatif (15% p.a)</p>
-            </div>
-            <div>
-              <h4 className="text-xl font-bold mb-2">Tahun ke-5</h4>
-              <p className="text-4xl font-bold text-yellow-300">Rp 5.2 Juta</p>
-              <p className="text-green-100 mt-2">Dengan compound growth</p>
-            </div>
+        {/* Long-term Projections */}
+        <div className="bg-gradient-to-r from-green-600 to-teal-600 rounded-2xl p-8 text-white">
+          <h3 className="text-3xl font-bold mb-8 text-center">Proyeksi Jangka Panjang Mix & Match</h3>
+          
+          <div className="grid lg:grid-cols-3 gap-8">
+            {longTermProjections.map((projection, index) => (
+              <div key={index} className="bg-white/10 backdrop-blur-md rounded-xl p-6">
+                <h4 className="text-2xl font-bold mb-4 text-center text-yellow-300">
+                  {projection.year}
+                </h4>
+                
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-green-200">Conservative:</span>
+                    <span className="font-bold">{projection.conservative}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-blue-200">Moderate:</span>
+                    <span className="font-bold">{projection.moderate}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-orange-200">Aggressive:</span>
+                    <span className="font-bold">{projection.aggressive}</span>
+                  </div>
+                </div>
+                
+                <p className="text-center text-sm mt-4 text-gray-200">
+                  {projection.scenario}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 text-center">
+            <p className="text-lg mb-4">
+              <span className="font-bold">Kunci Sukses Mix & Match:</span> Konsistensi + Rebalancing + Disiplin Jangka Panjang
+            </p>
+            <p className="text-green-200">
+              "Dengan strategi hybrid yang tepat, modal Rp 2 juta dapat berkembang menjadi fondasi kekayaan yang solid" - Hendra
+            </p>
           </div>
         </div>
       </div>

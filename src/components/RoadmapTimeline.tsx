@@ -6,48 +6,48 @@ const RoadmapTimeline = () => {
   const roadmapSteps = [
     {
       step: 1,
-      title: "Dana Darurat & Persiapan",
-      duration: "Bulan 1",
+      title: "Foundation: Dana Darurat & Deposito",
+      duration: "Bulan 1-2",
       budget: "Rp 500.000",
-      description: "Membangun fondasi keuangan yang kuat dengan dana darurat dan mempersiapkan mental investasi. Langkah penting sebelum memulai investasi jangka panjang.",
-      skills: ["Financial Planning", "Emergency Fund", "Risk Assessment", "Basic Investment Knowledge"],
-      tools: ["Tabungan Bank", "Aplikasi Finansial", "Kalkulator Investasi", "Buku Edukasi"]
+      description: "Membangun fondasi keuangan dengan dana darurat dan deposito sebagai anchor portfolio. Prioritas utama adalah keamanan dan likuiditas sebelum masuk ke instrumen yang lebih berisiko.",
+      skills: ["Emergency Fund Planning", "Deposito Strategy", "Liquidity Management", "Risk Assessment"],
+      tools: ["Bank Deposito", "Tabungan High-Yield", "Aplikasi Perbankan", "Kalkulator Bunga"]
     },
     {
       step: 2,
-      title: "Reksadana Pasar Uang",
-      duration: "Bulan 2-3",
-      budget: "Rp 400.000",
-      description: "Memulai dengan instrumen investasi yang paling aman dan liquid. Cocok untuk pemula yang ingin belajar sambil mendapat return yang lebih baik dari tabungan.",
-      skills: ["Reksadana Basics", "Risk Management", "Platform Trading", "Market Analysis"],
-      tools: ["Bareksa", "Bibit", "Tanamduit", "Ajaib"]
+      title: "Conservative Mix: Pasar Uang + Pendapatan Tetap",
+      duration: "Bulan 3-4",
+      budget: "Rp 500.000",
+      description: "Memulai diversifikasi dengan reksadana pasar uang dan pendapatan tetap. Kombinasi ini memberikan return lebih baik dari deposito dengan risiko minimal dan fleksibilitas tinggi.",
+      skills: ["Fixed Income Analysis", "Money Market Understanding", "Fund Selection", "Risk-Return Balance"],
+      tools: ["Bibit", "Bareksa", "Tanamduit", "Fund Factsheets"]
     },
     {
       step: 3,
-      title: "Reksadana Campuran",
-      duration: "Bulan 4-6",
+      title: "Balanced Portfolio: Reksadana Campuran",
+      duration: "Bulan 5-7",
       budget: "Rp 600.000",
-      description: "Meningkatkan exposure ke saham melalui reksadana campuran untuk potensi return yang lebih tinggi dengan risiko yang masih terkendali.",
-      skills: ["Asset Allocation", "Diversification", "Market Timing", "Performance Analysis"],
-      tools: ["Portfolio Tracker", "Investment Apps", "Market Research", "Fund Analysis"]
+      description: "Meningkatkan exposure ke saham melalui reksadana campuran untuk growth potential. Tahap ini mengajarkan konsep asset allocation dan pentingnya diversifikasi lintas kelas aset.",
+      skills: ["Asset Allocation", "Balanced Fund Analysis", "Market Cycle Understanding", "Portfolio Rebalancing"],
+      tools: ["Portfolio Tracker", "Asset Allocation Tools", "Market Research", "Rebalancing Calculator"]
     },
     {
       step: 4,
-      title: "Saham Blue Chip",
-      duration: "Bulan 7-9",
-      budget: "Rp 300.000",
-      description: "Mulai investasi langsung di saham perusahaan besar dan stabil. Belajar analisis fundamental dan teknikal untuk memilih saham yang tepat.",
-      skills: ["Stock Analysis", "Fundamental Analysis", "Technical Analysis", "Portfolio Management"],
-      tools: ["Stockbit", "RTI Business", "IPOT", "Trading Platform"]
+      title: "Growth Component: Saham & Equity Fund",
+      duration: "Bulan 8-10",
+      budget: "Rp 400.000",
+      description: "Menambahkan komponen pertumbuhan dengan saham pilihan dan equity fund. Focus pada blue chip dan fundamental analysis untuk memaksimalkan potensi return jangka panjang.",
+      skills: ["Stock Analysis", "Fundamental Analysis", "Company Valuation", "Sector Diversification"],
+      tools: ["Stockbit", "RTI Business", "TradingView", "Financial Statements"]
     },
     {
       step: 5,
-      title: "Diversifikasi & Optimasi",
-      duration: "Bulan 10-12",
-      budget: "Rp 200.000",
-      description: "Mengoptimalkan portfolio dengan diversifikasi ke berbagai instrumen dan sektor. Focus pada rebalancing dan strategi jangka panjang.",
-      skills: ["Portfolio Optimization", "Rebalancing", "Tax Planning", "Long-term Strategy"],
-      tools: ["Portfolio Management", "Tax Calculator", "Investment Tracker", "Financial Advisor"]
+      title: "Optimization: Rebalancing & Fine-tuning",
+      duration: "Bulan 11-12",
+      budget: "Remaining Budget",
+      description: "Mengoptimalkan portofolio melalui rebalancing berkala dan fine-tuning alokasi. Membangun disiplin investasi jangka panjang dan strategi exit yang tepat.",
+      skills: ["Portfolio Optimization", "Rebalancing Strategy", "Tax Efficiency", "Long-term Planning"],
+      tools: ["Rebalancing Tools", "Tax Calculator", "Portfolio Analytics", "Investment Journal"]
     }
   ];
 
@@ -56,10 +56,11 @@ const RoadmapTimeline = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Roadmap Investasi Bertahap
+            Roadmap Mix & Match Investment
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Strategi investasi sistematis dari pemula hingga investor yang berpengalaman dengan alokasi dana yang optimal
+            Strategi hybrid yang menggabungkan berbagai instrumen investasi untuk menciptakan portofolio yang seimbang, 
+            fleksibel, dan mengoptimalkan risk-adjusted return
           </p>
         </div>
 

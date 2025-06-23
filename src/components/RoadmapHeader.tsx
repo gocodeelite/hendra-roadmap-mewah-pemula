@@ -24,11 +24,11 @@ const RoadmapHeader = () => {
         </h1>
         
         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-purple-200">
-          Mix & Match Strategy
+          Strategi Mix & Match
         </h2>
         
         <p className="text-xl md:text-2xl mb-4 text-blue-100">
-          Memulai Perjalanan Finansial dengan Modal 2 Juta
+          Memulai Perjalanan Finansial dengan Modal Rp 2 Juta
         </p>
         
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
@@ -38,7 +38,7 @@ const RoadmapHeader = () => {
           </div>
           <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
             <TrendingUp className="w-5 h-5 text-green-400" />
-            <span className="font-medium">Target: 8-15% per tahun*</span>
+            <span className="font-medium">Target Potensi: 8-15% per tahun*</span>
           </div>
           <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
             <Shuffle className="w-5 h-5 text-purple-400" />
@@ -51,14 +51,14 @@ const RoadmapHeader = () => {
             <strong>⚠️ Disclaimer Risiko:</strong>
           </p>
           <p className="text-sm text-red-100">
-            Target return 8-15% per tahun adalah target realistis yang disesuaikan dengan profil risiko dan kondisi pasar. 
-            <strong> Perlu diingat bahwa performa investasi masa lalu tidak menjamin hasil di masa depan, dan nilai investasi dapat berfluktuasi.</strong>
+            Target potensi keuntungan 8-15% per tahun adalah target realistis yang disesuaikan dengan profil risiko dan kondisi pasar normal. 
+            <strong> Penting: Hasil investasi tidak dijamin. Nilai investasi dapat naik atau turun. Ada risiko kehilangan sebagian atau seluruh modal. Investasi memerlukan kesabaran dan komitmen jangka panjang.</strong>
           </p>
         </div>
         
         <p className="text-lg text-blue-200 max-w-3xl mx-auto">
-          Dipersembahkan oleh <span className="font-bold text-white">Nextcity</span> - 
-          Strategi Mix & Match untuk membangun portofolio yang seimbang dan mengoptimalkan potensi keuntungan jangka panjang
+          Dipersembahkan oleh <span className="font-bold text-white">Hendra</span> - 
+          Strategi Mix & Match untuk membantu Anda membangun portofolio investasi yang seimbang dan mengoptimalkan potensi pertumbuhan aset Anda secara realistis
         </p>
       </div>
     </div>

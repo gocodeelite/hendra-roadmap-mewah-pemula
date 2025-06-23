@@ -6,18 +6,18 @@ const SuccessMetrics = () => {
   const metrics = [
     {
       icon: <Shuffle className="w-8 h-8" />,
-      title: "Diversifikasi",
+      title: "Diversifikasi Optimal",
       value: "5-6",
       unit: "Instrumen",
-      description: "Mix optimal untuk modal 2 juta",
+      description: "Jenis instrumen yang optimal untuk modal Rp 2 juta",
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: <DollarSign className="w-8 h-8" />,
-      title: "Target Return",
-      value: "12-18",
+      title: "Target Potensi",
+      value: "8-15",
       unit: "% per tahun",
-      description: "Return realistis portofolio hybrid",
+      description: "Potensi keuntungan, bukan jaminan",
       color: "from-green-500 to-emerald-500"
     },
     {
@@ -25,15 +25,15 @@ const SuccessMetrics = () => {
       title: "Rebalancing",
       value: "3-4",
       unit: "Kali/tahun",
-      description: "Frekuensi optimasi portofolio",
+      description: "Frekuensi optimal menjaga alokasi",
       color: "from-purple-500 to-violet-500"
     },
     {
       icon: <Target className="w-8 h-8" />,
       title: "Risk Level",
-      value: "Moderate",
-      unit: "Balance",
-      description: "Keseimbangan risiko-return optimal",
+      value: "Moderat",
+      unit: "Berimbang",
+      description: "Nyaman dan sesuai untuk pemula",
       color: "from-orange-500 to-red-500"
     }
   ];
@@ -41,38 +41,42 @@ const SuccessMetrics = () => {
   const milestones = [
     {
       month: "Bulan 1-3",
-      title: "Foundation Building",
+      title: "Membangun Pondasi",
       achievements: [
-        "Dana darurat Rp 500k + deposito established",
-        "Memahami konsep risk-return trade-off",
-        "Portfolio base dengan instrumen konservatif"
+        "Dana darurat sudah mapan dan terpisah",
+        "Rp 500k dialokasikan ke deposito investasi awal",
+        "Memahami konsep dasar risk-return trade-off",
+        "Portofolio awal dengan instrumen konservatif terbentuk"
       ]
     },
     {
       month: "Bulan 4-6", 
-      title: "Diversification Phase",
+      title: "Fase Diversifikasi",
       achievements: [
-        "Mix pasar uang + pendapatan tetap aktif",
-        "Portfolio value mencapai Rp 1.2 juta",
-        "Return 8-12% dari investasi awal"
+        "Reksa dana pasar uang dan pendapatan tetap sudah aktif",
+        "Nilai portofolio mencapai sekitar Rp 1.2 juta*",
+        "Mulai merasakan manfaat diversifikasi",
+        "Pemahaman instrumen investasi meningkat"
       ]
     },
     {
       month: "Bulan 7-9",
-      title: "Growth Integration",
+      title: "Integrasi Pertumbuhan",
       achievements: [
-        "Reksadana campuran terintegrasi",
-        "Portfolio value Rp 1.6 juta",
-        "Memahami asset allocation dynamics"
+        "Reksa dana campuran sudah terintegrasi penuh",
+        "Nilai portofolio mencapai sekitar Rp 1.6 juta*",
+        "Pemahaman tentang dinamika alokasi aset meningkat",
+        "Toleransi risiko semakin matang"
       ]
     },
     {
       month: "Bulan 10-12",
-      title: "Portfolio Optimization",
+      title: "Optimasi Portofolio",
       achievements: [
-        "Hybrid portfolio fully optimized",
-        "Target return 12-18% tercapai",
-        "Master rebalancing strategy"
+        "Portofolio hybrid sudah terbentuk dan dioptimalkan",
+        "Target potensi keuntungan tahunan mulai terlihat",
+        "Menguasai strategi rebalancing dasar",
+        "Siap untuk perjalanan investasi jangka panjang"
       ]
     }
   ];
@@ -80,24 +84,24 @@ const SuccessMetrics = () => {
   const longTermProjections = [
     {
       year: "Tahun 1",
-      conservative: "Rp 2.24 juta",
-      moderate: "Rp 2.30 juta", 
-      aggressive: "Rp 2.36 juta",
-      scenario: "Target minimum (12%)"
+      conservative: "Rp 2.16 juta",
+      moderate: "Rp 2.24 juta", 
+      aggressive: "Rp 2.30 juta",
+      scenario: "Contoh return (8-15%)"
     },
     {
       year: "Tahun 3",
-      conservative: "Rp 2.81 juta",
-      moderate: "Rp 3.05 juta",
-      aggressive: "Rp 3.31 juta", 
-      scenario: "Growth steady (15%)"
+      conservative: "Rp 2.52 juta",
+      moderate: "Rp 2.81 juta",
+      aggressive: "Rp 3.04 juta", 
+      scenario: "Kumulatif (8-15% p.a.)"
     },
     {
       year: "Tahun 5",
-      conservative: "Rp 3.52 juta",
-      moderate: "Rp 4.04 juta",
-      aggressive: "Rp 4.64 juta",
-      scenario: "Optimal performance (18%)"
+      conservative: "Rp 2.94 juta",
+      moderate: "Rp 3.52 juta",
+      aggressive: "Rp 4.02 juta",
+      scenario: "Kumulatif (8-15% p.a.)"
     }
   ];
 
@@ -107,14 +111,14 @@ const SuccessMetrics = () => {
         <div className="text-center mb-16">
           <div className="flex justify-center items-center gap-2 mb-4">
             <Award className="w-8 h-8 text-purple-600" />
-            <span className="text-sm font-medium tracking-wider uppercase text-purple-600">Success Metrics</span>
+            <span className="text-sm font-medium tracking-wider uppercase text-purple-600">Indikator Keberhasilan</span>
           </div>
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Target & KPI Portofolio Hybrid
+            Target & KPI Realistis untuk Investor Pemula
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Indikator kesuksesan dan milestone yang terukur untuk strategi Mix & Match 
-            dengan modal 2 juta rupiah
+            dengan modal Rp 2 juta rupiah
           </p>
         </div>
 
@@ -145,10 +149,10 @@ const SuccessMetrics = () => {
           <div className="text-center mb-12">
             <div className="flex justify-center items-center gap-2 mb-4">
               <TrendingUp className="w-6 h-6 text-purple-600" />
-              <span className="font-medium text-purple-600">Progress Timeline</span>
+              <span className="font-medium text-purple-600">Linimasa Progres</span>
             </div>
             <h3 className="text-3xl font-bold text-gray-800 mb-4">Milestone Mix & Match</h3>
-            <p className="text-gray-600">Timeline realistis untuk strategi portofolio hybrid</p>
+            <p className="text-gray-600">Timeline realistis untuk pembelajaran dan pertumbuhan portofolio</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -188,7 +192,11 @@ const SuccessMetrics = () => {
 
         {/* Long-term Projections */}
         <div className="bg-gradient-to-r from-green-600 to-teal-600 rounded-2xl p-8 text-white">
-          <h3 className="text-3xl font-bold mb-8 text-center">Proyeksi Jangka Panjang Mix & Match</h3>
+          <h3 className="text-3xl font-bold mb-4 text-center">Proyeksi Jangka Panjang Portofolio Mix & Match</h3>
+          <p className="text-center text-green-100 mb-8">
+            <strong>Penting:</strong> Proyeksi ini HANYA ILUSTRASI dan tidak menjamin hasil investasi di masa depan. 
+            Kinerja investasi riil dapat bervariasi secara signifikan.
+          </p>
           
           <div className="grid lg:grid-cols-3 gap-8">
             {longTermProjections.map((projection, index) => (
@@ -199,15 +207,15 @@ const SuccessMetrics = () => {
                 
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-green-200">Conservative:</span>
+                    <span className="text-green-200">Konservatif (8%):</span>
                     <span className="font-bold">{projection.conservative}</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-blue-200">Moderate:</span>
+                    <span className="text-blue-200">Moderat (12%):</span>
                     <span className="font-bold">{projection.moderate}</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-orange-200">Aggressive:</span>
+                    <span className="text-orange-200">Agresif (15%):</span>
                     <span className="font-bold">{projection.aggressive}</span>
                   </div>
                 </div>
@@ -221,10 +229,19 @@ const SuccessMetrics = () => {
 
           <div className="mt-8 text-center">
             <p className="text-lg mb-4">
-              <span className="font-bold">Kunci Sukses Mix & Match:</span> Konsistensi + Rebalancing + Disiplin Jangka Panjang
+              <span className="font-bold">Kunci Sukses Mix & Match:</span> Konsistensi Berinvestasi + Disiplin Rebalancing + Komitmen Jangka Panjang
             </p>
             <p className="text-green-200">
-              "Dengan strategi hybrid yang tepat, modal Rp 2 juta dapat berkembang menjadi fondasi kekayaan yang solid" - Hendra
+              "Dengan strategi hybrid yang tepat dan konsisten, modal Rp 2 juta dapat menjadi langkah awal yang kuat untuk membangun kekayaan Anda." - Hendra
+            </p>
+          </div>
+        </div>
+        
+        <div className="mt-8 text-center">
+          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 max-w-4xl mx-auto rounded-lg">
+            <p className="text-yellow-800 text-sm">
+              <strong>*Catatan:</strong> Nilai portofolio yang disebutkan tergantung kinerja pasar dan bersifat ilustratif. 
+              Investasi selalu mengandung risiko dan hasil tidak dijamin.
             </p>
           </div>
         </div>

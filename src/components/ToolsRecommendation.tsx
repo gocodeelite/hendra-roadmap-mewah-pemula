@@ -138,7 +138,7 @@ const ToolsRecommendation = () => {
         <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 mb-8">
           <h3 className="text-2xl font-bold mb-6 text-center flex items-center justify-center gap-2">
             <Shield className="w-6 h-6" />
-            Strategi Rebalancing Portfolio
+            Pentingnya Rebalancing Portofolio
           </h3>
           
           <div className="grid md:grid-cols-3 gap-6">
@@ -160,22 +160,22 @@ const ToolsRecommendation = () => {
           <h3 className="text-2xl font-bold mb-6">Formula Mix & Match Hendra</h3>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white/10 rounded-xl p-4">
-              <h4 className="font-bold text-lg mb-2">Foundation (25%)</h4>
+              <h4 className="font-bold text-lg mb-2">Pondasi (25%)</h4>
               <p className="text-3xl font-bold text-green-400">Rp 500k</p>
-              <p className="text-sm mt-2">Deposito + Dana Darurat</p>
+              <p className="text-sm mt-2">Deposito (bagian investasi)</p>
             </div>
             <div className="bg-white/10 rounded-xl p-4">
-              <h4 className="font-bold text-lg mb-2">Conservative (25%)</h4>
+              <h4 className="font-bold text-lg mb-2">Konservatif (25%)</h4>
               <p className="text-3xl font-bold text-blue-400">Rp 500k</p>
               <p className="text-sm mt-2">Pasar Uang + Pendapatan Tetap</p>
             </div>
             <div className="bg-white/10 rounded-xl p-4">
-              <h4 className="font-bold text-lg mb-2">Growth (30%)</h4>
+              <h4 className="font-bold text-lg mb-2">Berimbang (30%)</h4>
               <p className="text-3xl font-bold text-yellow-400">Rp 600k</p>
               <p className="text-sm mt-2">Reksadana Campuran</p>
             </div>
             <div className="bg-white/10 rounded-xl p-4">
-              <h4 className="font-bold text-lg mb-2">Aggressive (20%)</h4>
+              <h4 className="font-bold text-lg mb-2">Agresif (20%)</h4>
               <p className="text-3xl font-bold text-red-400">Rp 400k</p>
               <p className="text-sm mt-2">Saham + Equity Fund</p>
             </div>

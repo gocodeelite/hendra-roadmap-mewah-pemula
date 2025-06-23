@@ -5,17 +5,17 @@ import { Wallet, TrendingUp, Shield, Shuffle } from 'lucide-react';
 
 const BudgetBreakdown = () => {
   const hybridPortfolio = [
-    { name: 'Deposito (Anchor)', value: 500000, color: '#10B981', risk: 'Sangat Rendah' },
-    { name: 'Pasar Uang', value: 300000, color: '#06B6D4', risk: 'Rendah' },
-    { name: 'Pendapatan Tetap', value: 200000, color: '#8B5CF6', risk: 'Rendah-Sedang' },
-    { name: 'Reksadana Campuran', value: 600000, color: '#F59E0B', risk: 'Sedang' },
-    { name: 'Saham/Equity Fund', value: 400000, color: '#EF4444', risk: 'Sedang-Tinggi' }
+    { name: 'Deposito (Pondasi)', value: 500000, color: '#10B981', risk: 'Sangat Rendah', percentage: '25%' },
+    { name: 'Pasar Uang', value: 300000, color: '#06B6D4', risk: 'Rendah', percentage: '15%' },
+    { name: 'Pendapatan Tetap', value: 200000, color: '#8B5CF6', risk: 'Rendah-Sedang', percentage: '10%' },
+    { name: 'Reksadana Campuran', value: 600000, color: '#F59E0B', risk: 'Sedang', percentage: '30%' },
+    { name: 'Saham/Equity Fund', value: 400000, color: '#EF4444', risk: 'Sedang-Tinggi', percentage: '20%' }
   ];
 
   const rebalancingSchedule = [
-    { periode: 'Q1', conservative: 800000, moderate: 600000, aggressive: 400000, target: 'Stabilitas' },
-    { periode: 'Q2', conservative: 700000, moderate: 700000, aggressive: 400000, target: 'Transisi' },
-    { periode: 'Q3', conservative: 600000, moderate: 800000, aggressive: 400000, target: 'Growth' },
+    { periode: 'Q1', conservative: 800000, moderate: 600000, aggressive: 400000, target: 'Membangun Pondasi' },
+    { periode: 'Q2', conservative: 700000, moderate: 700000, aggressive: 400000, target: 'Diversifikasi' },
+    { periode: 'Q3', conservative: 600000, moderate: 800000, aggressive: 400000, target: 'Integrasi Pertumbuhan' },
     { periode: 'Q4', conservative: 500000, moderate: 900000, aggressive: 400000, target: 'Optimasi' }
   ];
 
@@ -28,14 +28,14 @@ const BudgetBreakdown = () => {
             <span className="text-sm font-medium tracking-wider uppercase text-purple-600">Mix & Match Strategy</span>
           </div>
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Portofolio Hybrid: Alokasi Modal 2 Juta
+            Contoh Alokasi Awal Portofolio Hybrid dengan Modal Rp 2 Juta
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
-            Kombinasi cerdas berbagai instrumen investasi untuk mengoptimalkan return sambil 
-            mengelola risiko secara bertahap dan terstruktur
+            Ini adalah contoh pembagian modal awal ke berbagai instrumen investasi. 
+            Alokasi ini dapat Anda sesuaikan sesuai dengan profil risiko, tujuan investasi, dan pemahaman Anda yang terus berkembang
           </p>
           <p className="text-sm text-gray-500 italic">
-            (Contoh alokasi awal - proporsi bisa disesuaikan seiring bertambahnya modal dan perubahan profil risiko)
+            *Proporsi dapat disesuaikan seiring bertambahnya modal dan perubahan profil risiko
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const BudgetBreakdown = () => {
                     ></div>
                     <div>
                       <span className="font-medium text-gray-800">{item.name}</span>
-                      <p className="text-xs text-gray-600">Risiko: {item.risk}</p>
+                      <p className="text-xs text-gray-600">Risiko: {item.risk} | {item.percentage}</p>
                     </div>
                   </div>
                   <span className="text-sm font-bold text-gray-600">
@@ -94,7 +94,7 @@ const BudgetBreakdown = () => {
           <div className="space-y-6">
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                Strategi Rebalancing Berkala
+                Pentingnya Rebalancing Portofolio
               </h3>
               <div className="h-64">
                 <ResponsiveContainer width="100%" height="100%">
@@ -106,9 +106,9 @@ const BudgetBreakdown = () => {
                       formatter={(value: number) => [`Rp ${value.toLocaleString('id-ID')}`, '']}
                     />
                     <Legend />
-                    <Bar dataKey="conservative" stackId="a" fill="#10B981" name="Conservative" />
-                    <Bar dataKey="moderate" stackId="a" fill="#8B5CF6" name="Moderate" />
-                    <Bar dataKey="aggressive" stackId="a" fill="#EF4444" name="Aggressive" />
+                    <Bar dataKey="conservative" stackId="a" fill="#10B981" name="Konservatif" />
+                    <Bar dataKey="moderate" stackId="a" fill="#8B5CF6" name="Moderat" />
+                    <Bar dataKey="aggressive" stackId="a" fill="#EF4444" name="Agresif" />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
@@ -121,14 +121,14 @@ const BudgetBreakdown = () => {
                   <Shield className="w-6 h-6" />
                   <span className="font-medium">Risk Level</span>
                 </div>
-                <p className="text-2xl font-bold">Moderate</p>
-                <p className="text-sm opacity-90">Balanced Portfolio</p>
+                <p className="text-2xl font-bold">Moderat</p>
+                <p className="text-sm opacity-90">Berimbang</p>
               </div>
               
               <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl p-6 text-white">
                 <div className="flex items-center gap-3 mb-2">
                   <TrendingUp className="w-6 h-6" />
-                  <span className="font-medium">Target Return</span>
+                  <span className="font-medium">Target Potensi</span>
                 </div>
                 <p className="text-2xl font-bold">8-15%*</p>
                 <p className="text-sm opacity-90">Per tahun</p>

@@ -38,7 +38,7 @@ const RoadmapHeader = () => {
           </div>
           <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
             <TrendingUp className="w-5 h-5 text-green-400" />
-            <span className="font-medium">Target: 12-18% per tahun</span>
+            <span className="font-medium">Target: 8-15% per tahun*</span>
           </div>
           <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
             <Shuffle className="w-5 h-5 text-purple-400" />
@@ -46,9 +46,19 @@ const RoadmapHeader = () => {
           </div>
         </div>
         
+        <div className="bg-red-600/20 backdrop-blur-md rounded-lg p-4 mb-6 max-w-4xl mx-auto">
+          <p className="text-sm text-red-100 mb-2">
+            <strong>⚠️ Disclaimer Risiko:</strong>
+          </p>
+          <p className="text-sm text-red-100">
+            Target return 8-15% per tahun adalah target realistis yang disesuaikan dengan profil risiko dan kondisi pasar. 
+            <strong> Perlu diingat bahwa performa investasi masa lalu tidak menjamin hasil di masa depan, dan nilai investasi dapat berfluktuasi.</strong>
+          </p>
+        </div>
+        
         <p className="text-lg text-blue-200 max-w-3xl mx-auto">
-          Dipersembahkan oleh <span className="font-bold text-white">Hendra</span> - 
-          Strategi Mix & Match untuk membangun portofolio yang seimbang dan menguntungkan
+          Dipersembahkan oleh <span className="font-bold text-white">Nextcity</span> - 
+          Strategi Mix & Match untuk membangun portofolio yang seimbang dan mengoptimalkan potensi keuntungan jangka panjang
         </p>
       </div>
     </div>

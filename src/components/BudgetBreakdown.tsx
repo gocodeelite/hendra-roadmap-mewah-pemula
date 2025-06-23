@@ -19,8 +19,6 @@ const BudgetBreakdown = () => {
     { periode: 'Q4', conservative: 500000, moderate: 900000, aggressive: 400000, target: 'Optimasi' }
   ];
 
-  const totalBudget = hybridPortfolio.reduce((sum, item) => sum + item.value, 0);
-
   return (
     <div className="bg-gradient-to-br from-gray-50 to-white py-16">
       <div className="container mx-auto px-6">
@@ -32,9 +30,12 @@ const BudgetBreakdown = () => {
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             Portofolio Hybrid: Alokasi Modal 2 Juta
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
             Kombinasi cerdas berbagai instrumen investasi untuk mengoptimalkan return sambil 
             mengelola risiko secara bertahap dan terstruktur
+          </p>
+          <p className="text-sm text-gray-500 italic">
+            (Contoh alokasi awal - proporsi bisa disesuaikan seiring bertambahnya modal dan perubahan profil risiko)
           </p>
         </div>
 
@@ -127,9 +128,9 @@ const BudgetBreakdown = () => {
               <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl p-6 text-white">
                 <div className="flex items-center gap-3 mb-2">
                   <TrendingUp className="w-6 h-6" />
-                  <span className="font-medium">Expected Return</span>
+                  <span className="font-medium">Target Return</span>
                 </div>
-                <p className="text-2xl font-bold">12-18%</p>
+                <p className="text-2xl font-bold">8-15%*</p>
                 <p className="text-sm opacity-90">Per tahun</p>
               </div>
             </div>
@@ -144,7 +145,7 @@ const BudgetBreakdown = () => {
                 <li>• Mengurangi volatilitas portofolio secara keseluruhan</li>
                 <li>• Perlindungan terhadap risiko spesifik instrumen</li>
                 <li>• Fleksibilitas rebalancing sesuai kondisi pasar</li>
-                <li>• Optimasi risk-adjusted return</li>
+                <li>• Optimasi risk-adjusted return untuk pemula</li>
               </ul>
             </div>
           </div>

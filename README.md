@@ -1,7 +1,3 @@
-Oke, got it\! Here's the professional `README.md` for your project, updated with your specific Git repository URL:
-
------
-
 # Hendra's Investment Roadmap
 
 -----

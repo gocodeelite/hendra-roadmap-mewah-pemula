@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, DollarSign, Briefcase, Instagram, Twitter, Linkedin, Mail, Star } from 'lucide-react'; // <-- Tambahkan Star di sini!
+import { TrendingUp, DollarSign, Briefcase, Instagram, Twitter, Linkedin, Mail, Star, Heart } from 'lucide-react'; 
 
 const Footer = () => {
   return (

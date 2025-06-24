@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Heart, Star, Award, Instagram, Twitter, Linkedin, Mail } from 'lucide-react';
+import { TrendingUp, DollarSign, Briefcase, Instagram, Twitter, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -12,17 +11,17 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl p-3">
-                <Award className="w-8 h-8" />
+                <TrendingUp className="w-8 h-8" /> {/* Changed from Award to TrendingUp */}
               </div>
               <div>
-                <h3 className="text-2xl font-bold">Hendra Design Academy</h3>
-                <p className="text-purple-200">Professional Graphic Design Roadmap</p>
+                <h3 className="text-2xl font-bold">Hendra Capital Insights</h3> {/* Changed name */}
+                <p className="text-purple-200">Panduan Investasi untuk Pertumbuhan Kekayaan</p> {/* Changed tagline */}
               </div>
             </div>
             
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
-              Roadmap lengkap dan terstruktur untuk mengembangkan karir sebagai desainer grafis profesional. 
-              Dari pemula hingga expert dengan panduan yang telah terbukti efektif.
+              Panduan komprehensif dan strategi teruji untuk membangun portofolio investasi yang solid.
+              Dari dasar hingga strategi lanjutan untuk mencapai tujuan finansial Anda.
             </p>
             
             <div className="flex items-center gap-4">
@@ -31,20 +30,20 @@ const Footer = () => {
                   <Star key={i} className="w-5 h-5 fill-yellow-400" />
                 ))}
               </div>
-              <span className="text-gray-300">Trusted by 1000+ aspiring designers</span>
+              <span className="text-gray-300">Dipercaya oleh 1000+ investor cerdas</span> {/* Changed text */}
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-bold mb-6">Quick Links</h4>
+            <h4 className="text-lg font-bold mb-6">Akses Cepat</h4> {/* Changed title */}
             <ul className="space-y-3">
               {[
-                "Foundation & Setup",
-                "Design Fundamentals", 
-                "Software Mastery",
-                "Portfolio Development",
-                "Monetization Strategy"
+                "Dasar-dasar Investasi",
+                "Analisis Pasar", 
+                "Strategi Portofolio",
+                "Manajemen Risiko",
+                "Peluang Keuntungan"
               ].map((link, index) => (
                 <li key={index}>
                   <a href="#" className="text-gray-300 hover:text-purple-300 transition-colors">
@@ -57,11 +56,11 @@ const Footer = () => {
 
           {/* Contact & Social */}
           <div>
-            <h4 className="text-lg font-bold mb-6">Connect</h4>
+            <h4 className="text-lg font-bold mb-6">Terhubung dengan Kami</h4> {/* Changed title */}
             <div className="space-y-4 mb-6">
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-purple-400" />
-                <span className="text-gray-300">hendra@designacademy.com</span>
+                <span className="text-gray-300">info@hendracapital.com</span> {/* Changed email */}
               </div>
             </div>
             
@@ -87,10 +86,10 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-12 mb-12">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             {[
-              { number: "2M", label: "Total Investment", desc: "Modal yang dibutuhkan" },
-              { number: "6-12", label: "Months to Pro", desc: "Bulan mencapai profesional" },
-              { number: "3-5M", label: "Monthly Income", desc: "Target pendapatan bulanan" },
-              { number: "24/7", label: "Learning Support", desc: "Akses materi pembelajaran" }
+              { number: "10Jt+", label: "Modal Awal Disarankan", desc: "Mulai investasi dengan potensi maksimal" }, {/* Adjusted number and description for investment */}
+              { number: "6-12", label: "Bulan Mencapai Kemandirian Finansial", desc: "Estimasi waktu dengan strategi yang tepat" }, {/* Adjusted for financial independence */}
+              { number: "10-20%", label: "Potensi Keuntungan Tahunan", desc: "Target pengembalian investasi realistis" }, {/* Adjusted for investment returns */}
+              { number: "24/7", label: "Dukungan & Analisis Pasar", desc: "Akses materi dan insight kapan saja" } {/* Adjusted for investment support */}
             ].map((stat, index) => (
               <div key={index} className="bg-gray-800/50 rounded-xl p-6">
                 <div className="text-3xl font-bold text-purple-400 mb-2">{stat.number}</div>
@@ -105,13 +104,13 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2 text-gray-300">
-              <span>Made with</span>
+              <span>Dibangun dengan</span>
               <Heart className="w-4 h-4 text-red-400 fill-red-400" />
-              <span>by Hendra | Professional Design Mentor</span>
+              <span>oleh Hendra | Ahli Strategi Investasi</span> {/* Changed role */}
             </div>
             
             <div className="text-gray-400 text-sm">
-              © 2024 Hendra Design Academy. All rights reserved.
+              © 2024 Hendra Capital Insights. Semua Hak Dilindungi.
             </div>
           </div>
         </div>

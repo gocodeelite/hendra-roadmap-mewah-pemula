@@ -110,7 +110,7 @@ const Footer = () => {
             </div>
             
             <div className="text-gray-400 text-sm">
-              © 2024 Hendra Capital Insights. Semua Hak Dilindungi.
+              © 2025 Hendra Capital Insights. Semua Hak Dilindungi.
             </div>
           </div>
         </div>
